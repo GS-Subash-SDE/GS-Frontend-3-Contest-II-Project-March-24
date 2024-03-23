@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: serif;
+}
+
+.main-continer {
+  width: 98%;
+  padding: 10px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#current-image-container {
+  flex: 1;
+  background-color: black;
+  padding: 20px 15px;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 32px;
+}
+
+.nasa-img-heading {
+  font-size: 34px;
+  text-align: center;
+}
+
+.nasa-img {
+  display: inline-block;
+  width: 600px;
+  margin-inline: auto;
+}
+.item1 {
+  height: 100%;
+  /* background-color: turquoise; */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.item2 {
+  flex: 1;
+  /* background-color: tomato; */
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  /* text-align: justify; */
+  /* align-items: center; */
+}
+
+.search-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  /* background-color: red; */
+}
+
+.search-container div {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  row-gap: 20px;
+
+  letter-spacing: -0.3px;
+}
+
+.search-container li {
+  list-style: none;
+}
+
+#search-form button {
+  padding: 2px 10px;
+  cursor: pointer;
+}
+
